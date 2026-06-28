@@ -1,0 +1,13 @@
+{
+  "sendResults": "always",
+  "slackLogLevel": "error",
+  "showInThread": false,
+  "meta": [
+    { "key": "Repository", "value": "__ENV_GITHUB_REPOSITORY" },
+    { "key": "Branch", "value": "__ENV_GITHUB_REF_NAME" },
+    { "key": "Commit", "value": "__ENV_GITHUB_SHA" },
+    { "key": "Run", "value": "__ENV_GITHUB_RUN_URL" }
+  ],
+  "maxNumberOfFailures": 4,
+  "disableUnfurl": true
+}
